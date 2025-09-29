@@ -1,0 +1,35 @@
+body {
+  font-family: Rockwell, sans-serif;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body h1 {
+  color: #000;
+  margin-top: 50px;
+  font-size: 4rem;
+  -webkit-text-stroke: #f571b7;
+  text-shadow: 0 0 5px #e432bb, 0 0 10px #e432bb, 0 0 20px #e432bb, 0 0 40px rgb(233.9353448276, 95.0646551724, 201.9482758621), 0 0 80px rgb(239.8706896552, 140.1293103448, 216.8965517241);
+}
+body h2 {
+  color: #000;
+  margin-top: 50px;
+  font-size: 3rem;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 0 0 5px #e432bb, 0 0 10px #e432bb, 0 0 20px #e432bb, 0 0 40px rgb(233.9353448276, 95.0646551724, 201.9482758621), 0 0 80px rgb(239.8706896552, 140.1293103448, 216.8965517241);
+}
+body h5 {
+  color: #000;
+  margin-top: 50px;
+  font-size: 1rem;
+  -webkit-text-stroke: 0.5px rgb(255, 85, 227);
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 20px #000, 0 0 40px rgb(25.5, 25.5, 25.5), 0 0 80px #333333;
+}
+body button {
+  color: #000;
+  margin-top: 50px;
+  font-size: 1rem;
+  -webkit-text-stroke: 1px rgb(154, 30, 133);
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 20px #000, 0 0 40px rgb(25.5, 25.5, 25.5), 0 0 80px #333333;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,64 @@
+$cor-principal: #000; // Fundo escuro para destacar o neon
+$cor-texto: #e432bb; // Verde neon
+
+body {
+  font-family: Rockwell, sans-serif;
+  background-color: $cor-principal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  h1 {
+    color: #000;
+    margin-top: 50px;
+    font-size: 4rem;
+    -webkit-text-stroke: #f571b7;
+    text-shadow: 
+    0 0 5px $cor-texto,
+    0 0 10px $cor-texto,
+    0 0 20px $cor-texto,
+    0 0 40px lighten($cor-texto, 10%),
+    0 0 80px lighten($cor-texto, 20%);
+    
+
+}
+
+  h2 {
+    color: $cor-principal;
+    margin-top: 50px;
+    font-size: 3rem;
+    -webkit-text-stroke: 2px black; 
+    text-shadow: 
+      0 0 5px $cor-texto,
+      0 0 10px $cor-texto,
+      0 0 20px $cor-texto,
+      0 0 40px lighten($cor-texto, 10%),
+      0 0 80px lighten($cor-texto, 20%);
+  }
+
+  h5 {
+    color: $cor-principal;
+    margin-top: 50px;
+    font-size: 1rem;
+    -webkit-text-stroke: 0.5px rgb(255, 85, 227); 
+    text-shadow: 
+      0 0 5px $cor-principal,
+      0 0 10px $cor-principal,
+      0 0 20px $cor-principal,
+      0 0 40px lighten($cor-principal, 10%),
+      0 0 80px lighten($cor-principal, 20%);
+  }
+
+button {
+    color: $cor-principal;
+    margin-top: 50px;
+    font-size: 1rem;
+    -webkit-text-stroke: 1px rgb(154, 30, 133); 
+    text-shadow: 
+      0 0 5px $cor-principal,
+      0 0 10px $cor-principal,
+      0 0 20px $cor-principal,
+      0 0 40px lighten($cor-principal, 10%),
+      0 0 80px lighten($cor-principal, 20%);
+}
+}

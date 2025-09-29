@@ -1,0 +1,17 @@
+body {
+  font-family: Rockwell, sans-serif;
+  background-color: #c3c3c3;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body h1 {
+color:#cf477b;
+margin-top: 50px;
+}
+
+
+body h4 {
+  color: #d81296;
+  margin-top: 50px;
+}/*# sourceMappingURL=style.css.map */
