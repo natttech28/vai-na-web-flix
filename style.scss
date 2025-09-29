@@ -17,7 +17,7 @@ body {
     0 0 5px $cor-texto,
     0 0 10px $cor-texto,
     0 0 20px $cor-texto,
-    0 0 40px lighten($cor-texto, 10%),
+    0 0 40px lighten($cor-texto, 20%),
     0 0 80px lighten($cor-texto, 20%);
     
 
@@ -32,21 +32,21 @@ body {
       0 0 5px $cor-texto,
       0 0 10px $cor-texto,
       0 0 20px $cor-texto,
-      0 0 40px lighten($cor-texto, 10%),
+      0 0 40px lighten($cor-texto, 20%),
       0 0 80px lighten($cor-texto, 20%);
   }
 
   h5 {
     color: $cor-principal;
-    margin-top: 50px;
+    margin-top: 10px;
     font-size: 1rem;
-    -webkit-text-stroke: 0.5px rgb(255, 85, 227); 
+    -webkit-text-stroke: 0.3px rgb(254, 70, 208); 
     text-shadow: 
       0 0 5px $cor-principal,
       0 0 10px $cor-principal,
       0 0 20px $cor-principal,
-      0 0 40px lighten($cor-principal, 10%),
-      0 0 80px lighten($cor-principal, 20%);
+      0 0 20px lighten($cor-principal, 20%),
+      0 0 40px lighten($cor-principal, 20%);
   }
 
 button {
@@ -58,7 +58,7 @@ button {
       0 0 5px $cor-principal,
       0 0 10px $cor-principal,
       0 0 20px $cor-principal,
-      0 0 40px lighten($cor-principal, 10%),
+      0 0 40px lighten($cor-principal, 20%),
       0 0 80px lighten($cor-principal, 20%);
 }
 }
